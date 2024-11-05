@@ -1,9 +1,8 @@
+![Exchange Rates Visualizer](screenshot.png)
+
 # Currency Exchange Rate Trend Visualizer
 
 This project is a currency exchange rate trend visualizer that allows for interactive exploration of historical exchange rate data using a designated API. Built with JavaScript, jQuery, AJAX, and Canvas, it features dynamic data retrieval, interactive graphs, and responsive controls.
-
-## Screenshot
-![Exchange Rates Visualizer](screenshot.png)
 
 ## API Usage
 
