@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Exchange Rates</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <script src="exchange-rates.js" defer></script>
+        
+        <link rel="stylesheet" href="exchange-rates.css">
+    </head>
+    
+    <body>
+        <div id="chart">
+            <div class="flex-container">
+                <div>
+                    <canvas width="700" height="500" id="canvas"></canvas>
+                    <div id="buttons">
+                        <button id="previous-button">Previous<br>month</button>
+                        <button id="next-button">Next<br>month</button>
+                    </div>
+                </div>
+        
+                <div id="currencies">
+                    <p>
+                        <input type="checkbox" id="AUD" name="currency" value="AUD" checked>
+                        <label for="AUD">AUD</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="CZK" name="currency" value="CZK">
+                        <label for="CZK">CZK</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="GBP" name="currency" value="GBP" checked>
+                        <label for="GBP">GBP</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="CHF" name="currency" value="CHF">
+                        <label for="CHF">CHF</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="CAD" name="currency" value="CAD">
+                        <label for="CAD">CAD</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="JPY" name="currency" value="JPY">
+                        <label for="JPY">JPY</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="USD" name="currency" value="USD">
+                        <label for="USD">USD</label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
