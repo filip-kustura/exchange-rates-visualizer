@@ -19,7 +19,7 @@ The API would return a JSON response containing the exchange rates for the speci
 - **Updated API Access**: The API now requires a subscription for access, which may affect the ability to fetch data.
 - **Request Structure Changes**: The way requests are formatted and the parameters required have changed. **As a result, the project code needs to be updated to align with the new API specifications to ensure that the visualizer works properly and can fetch the required data successfully.**
 
-## Usage
+## Usage Instructions
 To start using the visualizer, clone or download the repository and open the `exchange-rates.html` file in your browser.
 
 1. **Select Currencies**: Check the boxes next to the currencies you wish to track.
